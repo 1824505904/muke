@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/page.css"/>
+		<link rel="stylesheet" type="text/css" href="css/猿聘.css"/>
+		<script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="doublell-top">
+			<div class="inner_links">
+				<a href="javascript:;" class="act-item mainplace">主会场</a>
+				<a href="javascript:;" class="act-item">JAVA</a>
+				<a href="javascript:;" class="act-item">前端</a>
+				<a href="javascript:;" class="act-item">面试</a>
+				<a href="javascript:;" class="act-item">Go/PHP</a>
+				<a href="javascript:;" class="act-item">移动端</a>
+				<a href="javascript:;" class="act-item">算法/前沿技术</a>
+				<a href="javascript:;" class="act-item">Python</a>
+				<a href="javascript:;" class="act-item">特惠专场</a>
+				<a href="javascript:;" class="act-item">就业班</a>
+			</div>
+		</div>
+		<!--顶部-->
+		<header>
+			<div class="page-container new-header" id="nav">
+				<ul class="nav-item">
+					<li><a href="javascript:;" class="active">慕课网首页</a></li>
+					<li><a href="javascript:;">免费课程</a></li>
+					<li><a href="javascript:;">实战课程</a></li>
+					<li><a href="javascript:;">就业班</a></li>
+					<li><a href="javascript:;">猿问</a></li>
+					<li><a href="javascript:;">手记</a></li>
+					<li><a href="javascript:;">猿聘</a><i class="icn-new"></i></li>
+				</ul>
+				<div id="login-area">
+					<ul class="header-unlogin clearfix">
+						<li class="app-load">
+							<a href="javascript:;">下载APP</a>
+							<div class="app-load-box clearfix">
+								<img src="image/appload.png" class="l">
+								<div class="r">
+									<p>扫描下载慕课网APP</p>
+									<a href="javascript:;"><i class="icon-apple"></i>App Store下载</a>
+									<a href="javascript:;"><i class="icon-android"></i>Android下载</a>
+								</div>
+							</div>
+							<!--隐藏盒子-->
+						</li>
+						<li class="shop-cart" id="shop-cart">
+							<a href="javascript:;" class="shop-cart-icon">
+								<span class="icon-shopping-cart"></span>
+								<span>购物车</span>
+							</a>
+							<div class="my-cart">
+								<div class=".cart-title-box clearfix">
+									<h2 class="l">我的购物车</h2>
+									<h5 class="r">已加入<span class="js-incart-num">0</span>门课程</h5></div>
+								<div class="cart-wrap">
+									<div class="clear-cart">
+										<span class="cartIcon icon-shopping-cart"></span>
+										<h3>购物车里空空如也</h3>
+										<div class="text">快去这里选购你中意的课程</div>
+										<p><a class="go-link">实战课程</a></p>
+										<p><a class="go-link">职业路径</a></p>
+									</div>
+								</div>
+							</div>
+							<!--隐藏盒子-->
+						</li>
+						<li class="header-signin">
+							<a href="javascript:;">登录</a>/
+							<a href="javascript:;">注册</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--版心-->
+		</header>
+		<!--头部-->
+		<div class="wrap-top">
+			<div class="nav-index">
+				<a href="javascript:;" class="zhaopin-logo"><img src="image/yuanpin/logo.png"></a>
+				<ul class="zhaopin-nav">
+					<li class="active"><a href="javascript:;">首页<div class="line"></div></a></li>
+					<li><a href="javascript:;">职位<div class="line"></div></a></li>
+					<li><a href="javascript:;">公司<div class="line"></div></a></li>
+					<li><a href="javascript:;">企业版<div class="line"></div></a></li>
+				</ul>
+			</div><!--上-->
+			<div class="search-wrap show">
+				<div class="search-box">
+					<div class="search-rect search-index show">
+						<div class="search-city">
+							<span class="city">北京</span>
+							<span class="imv2-arrow1_d icon">*</span>
+							<ul class="search-city-more">
+								<li>北京</li>
+								<li>上海</li>
+								<li>广州</li>
+								<li>深圳</li>
+								<li>杭州</li>
+								<li>成都</li>
+								<li>武汉</li>
+								<li>其他</li>
+							</ul>
+						</div>
+						<span class="line"></span>
+						<input type="text" placeholder="如：Java工程师"/>
+						<a class="search-btn moco-btn-cyan">搜索</a>
+					</div>
+					<div class="search-tag show">
+						<ul>
+							<li>职位</li>
+							<li><a hhref="javascript:;">java</a></li>
+							<li><a hhref="javascript:;">PHP</a></li>
+							<li><a hhref="javascript:;">运维</a></li>
+							<li><a hhref="javascript:;">前端</a></li>
+							<li><a hhref="javascript:;">IOS</a></li>
+							<li><a hhref="javascript:;">测试</a></li>
+						</ul>
+					</div>
+				</div>
+			</div><!--下-->
+		</div><!--搜索-->
+		<div class="wrap">
+			<div class="content">
+				<div class="left-content">
+					<div class="adv"><a href="javascript:;"><img src="image/yuanpin/5bdfa4380966987308000160.jpg"></a></div>
+					<div class="job-list">
+						<div class="tab-nav">
+							<a href="javascript:;" class="on">推荐<div class="line"></div></a>
+							<a href="javascript:;">最新<div class="line"></div></a>
+						</div>
+						<div class="list-item mt16">
+							<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+								<div class="item clearfix">
+								<div class="job-list-info">
+									<a href="javascript:;"><h2><b>java开发工程师</b><em>2周前</em></h2></a>
+									<div class="job-info">
+										<span class="salary">15k-20k</span><i class="imv2-dot_samll"></i>
+										<span>应届生</span><i class="imv2-dot_samll"></i>
+										<span>本科</span><i class="imv2-dot_samll"></i>
+										<span>北京市</span>
+									</div>
+									<ul class="tag"><li>JAVA</li></ul>
+								</div>
+								<div class="job-company">
+									<div class="company-pic">
+										<a href="javascript:;"><h2>水滴筹</h2></a>
+										<img src="image/yuanpin/5b91014e01efd45406400640.jpg">
+									</div>
+									<div class="compay-info">
+										<span>移动互联网</span><i class="imv2-dot_normal"></i>
+										<span>101-500人</span><i class="imv2-dot_normal"></i>
+										<span>天使轮</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!--列表-->
+				</div><!--左-->
+				<div class="right-content">
+					<div class="job-block">
+						<h3>免费发布职位</h3>
+						<p>轻/松/完/成/技/术/人/才/招/聘</p>
+						<a href="javascript:;" class="moco-btn moco-btn-cyan moco-btn-lg">马上发布职位</a>
+					</div>
+					<div class="qustion-block mt24">
+						<h3>遇到了问题？</h3>
+						<p>加入官方招聘群，每日定期推荐优质职位以及求职经验干货，与更多求职者交流学习</p>
+						<span><b>群号：426175884</b></span>
+					</div>
+					<div class="recommend-company">
+						<h2><b>推荐公司</b></h2>
+						<div class="recommend-company-list">
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b971ff001236f5b03160192.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b9720d201ca28f603160192.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b9636cc01b9a6a103160192.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b5ffdfc01e0df1b03160192.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b97204d016c6a0e03160192.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b60237e01fbbc2e03160192.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b515a8f01098c5c03160192.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b515b0c014f8aba03160192.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b55a0c40130d60a05410606.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b515b31016ac0e101580096.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b60070901ed278901580096.jpg"></a>
+							<a href="javascript:;" class="company-item"><img src="image/yuanpin/5b4336ab01adedee02300230.jpg"></a>
+						</div>
+					</div>
+				</div><!--右-->
+			</div>
+		</div><!--正文-->
+		<div class="page">
+						<span class="disabled_page">首页</span>
+						<span class="disabled_page">上一页</span>
+						<a href="javascript:;" class="active text-page-tag">1</a>
+						<a href="javascript:;" class="text-page-tag">2</a>
+						<a href="javascript:;" class="text-page-tag">3</a>
+						<a href="javascript:;">下一页</a>
+						<a href="javascript:;">尾页</a>
+					</div><!--小圆点-->
+        </div><!--正文-->
+        <div id="footer">
+			<div class="waper">
+				<div class="footerwaper clearfix">
+					<div class="followus r">
+						<a class="followus-weixin"><div class="flw-weixin-box"></div></a>
+						<a class="followus-weibo"></a>
+						<a class="followus-qzone"></a>
+					</div><!--右-->
+					<div class="footer-intro l">
+						<div class="footer-link">
+							<ul>
+								<li><a href="javascript:;">网站首页</a></li>
+								<li><a href="javascript:;">企业合作</a></li>
+								<li><a href="javascript:;">人才招聘</a></li>
+								<li><a href="javascript:;">联系我们</a></li>
+								<li><a href="javascript:;">讲师招募</a></li>
+								<li><a href="javascript:;">常见问题</a></li>
+								<li><a href="javascript:;">意见反馈</a></li>
+								<li><a href="javascript:;">慕课大学</a></li>
+								<li><a href="javascript:;">友情链接</a></li>
+							</ul>
+						</div>
+						<p>Copyright © 2018 imooc.com All Rights Reserved | 京ICP备 12003892号-11 </p>
+					</div><!--左-->
+				</div>
+			</div>
+		</div><!--尾部-->
+		<script src="js/免费课程.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

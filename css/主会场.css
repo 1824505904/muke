@@ -1,0 +1,459 @@
+body{
+	width: 100%;
+	font-size: 12px;
+	background:darkblue;
+}
+#headers{
+	width: 1152px;
+	margin: 0 auto;
+	position: absolute;top: 0px;left:7%;
+	margin-left: -579px;
+	z-index: 999;
+}
+#headers{
+	width: 1152px;
+	margin: 0 auto !important;
+}
+.header-container{
+	padding-top: 24px;
+	height: 36px;
+	line-height: 36px;
+	position: relative;
+	margin: 0 auto !important;
+}
+.header-container .goback{
+	background: rgba(28,31,33,.2);
+	border-radius: 18px;
+	color: #fff;
+	width: 130px;
+	text-align: center;
+}
+.l{float: left;}
+.r{float: right;}
+#wrapper{
+	width: 100%;
+	margin-bottom: -220px;
+}
+#wrapper .index_head{
+	min-width: 1200px;
+	height: 720px;
+	background-image: url(../image/zhuhui/index_head_img.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#wrapper .index_head .act_discount{
+	text-align: center;
+	width: 550px;
+	position: absolute;bottom: 232px;left: 50%;
+	margin-left: -275px;
+	white-space: nowrap;
+	font-size: 0;
+}
+#wrapper .index_head .act_discount p{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	color: #fff;
+	line-height: 44px;
+	text-shadow: 0 1px 2px #c57d00;
+}
+#wrapper .index_head .act_discount #act_day,
+#wrapper .index_head .act_discount #act_hour,
+#wrapper .index_head .act_discount #act_min,
+#wrapper .index_head .act_discount #act_sec{
+	margin: 0 5px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 44px;
+	height: 44px;
+	box-sizing: border-box;
+	background: rgba(49,0,97,.3);
+	border-radius: 8px;
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	line-height: 44px;
+}
+#wrapper .index_content{
+	position: relative;
+	top: -200px;
+	background:darkblue;
+}
+#wrapper .index_content .coupon_area{
+	width: 1200px;
+	height: 444px;
+	margin: 0 auto;
+	position: relative;
+	background:url(../image/zhuhui/coupon_area_bg.png)no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.floatnav{
+	width: 144px;
+	height: 621px;
+	box-sizing: border-box;
+	padding: 18px 12px;
+	background: #62348d;
+	background-image: linear-gradient(-135deg,#62348d 0,#282058 100%);
+    box-shadow: 0 8px 16px 0 #0D0445;
+    border-radius: 12px;
+    z-index: 2;
+    position: fixed;
+    top: 110px;
+    right: -115px;
+    transition: all linear .2s!important;
+}
+.floatnav .nav_head{
+	width: 120px;
+	height: 26px;
+	background: url(../image/zhuhui/floatnav_head.png);
+	background-size: 100% 100%;
+}
+.floatnav .nav_list{
+	width: 100%;
+	margin: 16px auto 0;
+	border-top: 1px solid rgba(255,255,255,.4);
+	padding-left: 23px;
+	padding-right: 6px;
+	box-sizing: border-box;
+}
+.floatnav .nav_list li{
+	padding: 12px 0;
+	border-bottom: 1px solid rgba(255,255,255,.4);
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 700;
+}
+.floatnav .nav_list li.active a{color: #FAD80F;}
+.floatnav .nav_list li i{
+	margin-left: 22px;
+	margin-right: 3px;
+}
+.floatnav:hover {
+    right: 0!important;
+}
+.floatnav .nav_list li a {
+    color: #FFF;
+}
+.floatnav .nav_list li a:hover{color: #FFFF00;}
+#wrapper .index_content .coupon_area .all_get_btn{
+	width: 310px;
+	height: 64px;
+	position: absolute;top: 80px;left: 50%;
+	margin-left: -155px;
+	background: url(../image/zhuhui/all_get_btn.png)no-repeat;
+	background-position: center;
+	background-size: 100% 200%;
+}
+#wrapper .index_content .coupon_area .coupon_list{
+	top: 176px;
+	left: 72px;
+	font-size: 0;
+	width: 100%;
+	position: relative;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item{
+	width: 252px;
+	height: 104px;
+	margin: 6px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: url(../image/zhuhui/index_coupon.jpg)no-repeat;
+	background-size: 400%;
+	background-position-x: 0;
+	display: inline-block;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item.coupon0{
+	background-position-y: 0;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item.coupon1{
+	background-position-y: -104px;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item.coupon2{
+	background-position-y: -208px;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item.coupon3{
+	background-position-y: -312px;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item.coupon4{
+	background-position-y: -416px;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item.coupon5{
+	background-position-y: -520px;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item.coupon6{
+	background-position-y: -624px;
+}
+#wrapper .index_content .coupon_area .coupon_list .coupon_item.coupon7{
+	background-position-y: -728px;
+}
+
+/*专场*/
+#wrapper .index_content .nav_btn_area{
+	width: 100%;
+	height: 444px;
+	padding: 36px 0;
+	box-sizing: border-box;
+	background: url(../image/zhuhui/nav_btn_list_bg.png)no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list{
+	width: 1164px;
+	height: 372px;
+	margin: 0 auto;
+	font-size: 0;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item{
+	width: 376px;
+	height: 116px;
+	display: inline-block;
+	margin: 6px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: url(../image/zhuhui/nav_btn_bg.png)no-repeat;
+	background-size: 100%;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.java{
+	background-position: 0 -116px;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.web{
+	background-position: 0 -232px;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.python{
+	background-position: 0 -812px;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.job {
+    background-position: 0 -1044px;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.offer {
+    background-position: 0 -348px;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.number {
+    background-position: 0 -696px;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.php {
+    background-position: 0 -464px;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.android {
+    background-position: 0 -580px;
+}
+#wrapper .index_content .nav_btn_area .nav_btn_list .nav_btn_item.discount {
+    background-position: 0 -928px;
+}
+
+/*java专场*/
+.branch_area{
+	width: 100%;
+	min-width: 1200px;
+	height: 608px;
+	box-sizing: border-box;
+	padding-top: 108px;
+	position: relative;
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+.branch_area.java{
+	background: url(../image/zhuhui/index_java_bg.png);
+}
+.branch_area.web{
+	background: url(../image/zhuhui/index_web_bg.png);
+}
+.branch_area.python{
+	background: url(../image/zhuhui/index_python_bg.png);
+}
+.branch_area.job{
+	background: url(../image/zhuhui/index_class_bg.png);
+}
+.branch_area.offer{
+	background: url(../image/zhuhui/index_interview_bg.png);
+}
+.branch_area.number{
+	background: url(../image/zhuhui/index_arithmetic_bg.png);
+}
+.branch_area.php{
+	background:url(../image/zhuhui/index_python_bg.png);
+}
+.branch_area.android{
+	background:url(../image/zhuhui/index_android_bg.png);
+}
+.branch_area.discount{
+	background: url(../image/zhuhui/index_preference_bg.png);
+}
+.branch_area .branch_course_list{
+	width: 1032px;
+	padding: 0 60px;
+	height: 318px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.branch_area .branch_course_list .course_item{
+	display: inline-block;
+	vertical-align: top;
+	width: 230px;
+	height: 318px;
+	position: relative;
+	margin-left: 37px;
+}
+
+.branch_area .branch_course_list .course_item:first-child{margin-left: 0px;}
+.branch_area .branch_course_list .course_item:last-child{margin-right: 0px;}
+.branch_area .branch_course_list .course_item .course_pic{
+	width: 100%;
+	height: 148px;
+	border-radius: 8px;
+	position: relative;
+	overflow: hidden;
+	background: #d1d1d1;
+}
+.branch_area .branch_course_list .course_item .course_pic img{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+	border: 0;
+}
+.branch_area .branch_course_list .course_item .course_pic .flag_area{
+	position: absolute;bottom: 8px;left: 8px;
+}
+.branch_area .branch_course_list .course_item .course_pic .flag_area .course-flag{
+	width: 57px;
+	height: 24px;
+	background: rgba(7,17,27,.4);
+	border-radius: 4px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	padding: 5px 8px;
+	margin-right: 8px;
+}
+.branch_area .branch_course_list .course_item .course_info{
+	width: 100%;
+	max-height: 116px;
+	margin-top: 16px;
+	margin-bottom: 6px;
+	padding-left: 4px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.branch_area .branch_course_list .course_item .course_info .title{
+	font-size: 16px;
+	color: #fff;
+	line-height: 22px;
+	font-weight: 700;
+	text-align: center;
+	word-break: break-all;
+}
+.branch_area .branch_course_list .course_item .course_info .info{
+	margin-top: 8px;
+	margin-bottom: 6px;
+	font-size: 12px;
+	color: #dcebfa;
+	line-height: 18px;
+	text-align: left;
+}
+.branch_area .branch_course_list .course_item .course_info .info span{
+	position: relative;
+	margin-right: 16px;
+}
+i{font-style: normal;}
+.branch_area .branch_course_list .course_item .course_info .desc{
+	font-size: 12px;
+	color: #f0fbff;
+	line-height: 20px;
+	text-align: left;
+}
+.branch_area .branch_course_list .course_item .course_price{
+	width: 100%;
+	height: 32px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: left;
+	position: absolute;bottom: 0;
+}
+.branch_area .branch_course_list .course_item .course_price .price{
+	vertical-align: middle;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 700;
+	line-height: 32px;
+}
+.branch_area .branch_course_list .course_item .course_price .buy_now{
+	display: inline-block;
+	vertical-align: middle;
+	width: 88px;
+	height: 32px;
+	background: #ff9b00;
+	background-image: linear-gradient(-90deg,rgba(254,200,23,.99)0,#ff9b00 100%);
+	border-radius: 18px;
+	font-size: 12px;
+	color: #0D0445;
+	font-weight: 700;
+	line-height: 32px;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+}
+.branch_area .get_more{
+	width: 200px;
+	display: block;
+	font-size: 16px;
+	color: rgba(255,255,255,.6);
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 24px;
+	font-weight: 700;
+	position: absolute;bottom: 80px;left: 50%;
+	margin-left: -100px;
+}
+
+/*按钮*/
+#wrapper .index_content .more_btn_area{
+	text-align: center;
+	font-size: 0;
+}
+#wrapper .index_content .more_btn_area a{
+	display: inline-block;
+	width: 320px;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+	background: rgba(255,255,255,.2);
+	border-radius: 32px;
+	font-size: 16px;
+	color: #fff;
+	margin: 0 12px;
+}
+
+/*尾部*/
+#footer-wrap{
+	color: #fff;
+	text-align: center;
+	background: darkblue;
+}
+#footer-wrap dl{
+	width: 770px;
+	margin: 64px auto 0;
+}
+#footer-wrap dt{
+	font-size: 32px;
+	line-height: 48px;
+	margin-bottom: 24px;
+	font-weight: 700;
+}
+#footer-wrap dd{
+	text-align: left;
+	font-size: 12px;
+	line-height: 24px;
+}
+#footer-wrap p{
+	height: 96px;
+	line-height: 96px;
+	background: #261d4f;
+	font-size: 12px;
+	color: rgba(255,255,255,.4);
+	margin-top: 80px;
+}

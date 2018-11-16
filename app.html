@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.minz.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<script src="js/免费课程.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+
+	<body>
+		<div id="header">
+			<div class=".page-container addZ-index" id="nav">
+				<div id="logo" class="logo">
+					<a href="#"><img src="image/app/logo.png"></a>
+				</div>
+				<!--<button type="button" class="navbar-toggle visible-xs-block"></button>-->
+				<ul class="nav-item">
+					<li class="set_btn visible-xs-block">
+						<a href="#">登录</a>
+						<a href="#">注册</a>
+					</li>
+					<li><a href="免费课程.html" target="_blank">免费课程</a></li>
+					<li><a href="就业班.html" target="_blank">就业班</a></li>
+					<li><a href="#">实战</a></li>
+					<li><a href="猿问.html" target="_blank">猿问</a></li>
+					<li><a href="#">手记</a></li>
+					<li><a href="#">猿聘</a></li>
+					<li>
+						<a href="#" class="program-nav">
+							找工作
+							<i class="icn-new"></i>
+						</a>
+					</li>
+				</ul>
+				<div id="login-area">
+					<ul class="header-unlogin clearfix">
+						<li class="app-load">
+							<a href="#" style="width: 60px;">下载APP</a>
+							<div class="app-load-box clearfix">
+								<img src="img/appload.png" id="img" class="l">
+								<div class="r">
+									<p>扫描下载慕课网APP</p>
+									<a href="#">
+										<i class="icon-apple"></i> App Store下载
+									</a>
+									<a href="#">
+										<i class="icon-android"></i> Android下载
+									</a>
+								</div>
+							</div>
+							<!--app大-->
+						</li>
+						<li class="shop-cart" id="shop-cart">
+							<a href="#" class="shop-cart-icon">
+								<span class="icon-shopping-cart"></span>
+								<span>购物车</span>
+								<span class="shopping_icon"></span>
+							</a>
+							<div class="my-cart">
+								<div class="cart-title-box clearfix">
+									<h2 class="l">我的购物车</h2>
+									<h5 class="r">
+										已加入
+										<span class="js-incart-num">0</span>门课程
+									</h5>
+								</div>
+								<div class="cart-wrap">
+									<div class="clear-cart">
+										<span class="cartIcon icon-shopping-cart"></span>
+										<h3>购物车空空如也</h3>
+										<div class="text">快去这里选购你中意的课程</div>
+										<p><a class="go-link">实战课程</a></p>
+										<p><a class="go-link">职业路径</a></p>
+									</div>
+								</div>
+							</div>
+							<!--隐-->
+						</li>
+						<li class="header-signin">
+							<a href="#">登录</a>/
+							<a href="#">注册</a>
+						</li>
+					</ul>
+				</div>
+				<div class="search-warp clearfix">
+					<div class="pa searchTags">
+						<a href="#">前端入门</a>
+						<a href="#">java基础</a>
+					</div>
+					<div class="search-area">
+						<input class="search-input" type="text" />
+						<input type="hidden" class="btn-search" />
+						<ul class="search-area-result"></ul>
+					</div>
+					<div class="showhide-search">
+						<i class="icon-search"></i>
+					</div>
+					<script type="text/javascript">
+						var oStags = document.querySelector('.searchTags');
+						var oSearch = document.querySelector('.search-input');
+						var oIcon = document.querySelector('.icon-search');
+						var oArea = document.querySelector('.search-area');
+						var oShow = document.querySelector('.showhide-search');
+						oSearch.onfocus = function() {
+							oStags.style.display = 'none';
+							oArea.className = 'search-area search-area_move';
+							oIcon.className = 'red icon-search';
+							oShow.style.backgroundColor = 'rgba(240,20,20,.4)'
+						}
+						oSearch.onblur = function() {
+							oStags.style.display = 'block';
+							oArea.className = 'search-area';
+							oIcon.className = 'icon-search';
+							oShow.style.backgroundColor = ''
+						}
+					</script>
+				</div>
+			</div>
+			<!--头心-->
+		</div>
+		<!--头部-->
+		<div id="main">
+			<div class="tab-content-section">
+				<div class="tab-content mobile">
+					<div class="banner-view-mobile">
+						<div class="mobile-download-box">
+							<a class="mobile-btn-download ios"></a>
+							<a class="mobile-btn-download android"></a>
+							<div class="mobile-btn-qrcode btn-ui">
+								<div class="mobile-pic-qrcode"></div>
+							</div>
+						</div>
+						<div class="view-mobile" style="bottom: 0px;"></div>
+					</div>
+					<div class="mobile-intro-box">
+						<div class="mobile-intro-box-inner">
+							<ul class="clearfix">
+								<li class="bounce" id="dowebok">
+									<div class="mobile-icon-box">
+										<img id="mobilePraise" src="image/app/icon_praise.png">
+									</div>
+									<div class="mobile-intro-txt">顶尖公司 实力大牛</div>
+								</li>
+								<li>
+									<div class="mobile-icon-box">
+										<img id="mobilePraise" src="image/app/icon_course.png">
+									</div>
+									<div class="mobile-intro-txt">贴近工作 海量课程</div>
+								</li>
+								<li>
+									<div class="mobile-icon-box">
+										<img id="mobilePraise" src="image/app/icon_shizhan.png">
+									</div>
+									<div class="mobile-intro-txt">助力提升 实战案例</div>
+								</li>
+								<li>
+									<div class="mobile-icon-box">
+										<img id="mobilePraise" src="image/app/icon_offline.png">
+									</div>
+									<div class="mobile-intro-txt">随时随地 离线学习</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--banner-->
+		<div id="footer">
+			<div class="waper">
+				<div class="footerwaper clearfix">
+					<div class="followus r">
+						<a class="followus-weixin">
+							<div class="flw-weixin-box"></div>
+						</a>
+						<a class="followus-weibo"></a>
+						<a class="followus-qzone"></a>
+					</div>
+					<!--右-->
+					<div class="footer-intro l">
+						<div class="footer-link">
+							<ul>
+								<li><a href="javascript:;">网站首页</a></li>
+								<li><a href="javascript:;">企业合作</a></li>
+								<li><a href="javascript:;">人才招聘</a></li>
+								<li><a href="javascript:;">联系我们</a></li>
+								<li><a href="javascript:;">讲师招募</a></li>
+								<li><a href="javascript:;">常见问题</a></li>
+								<li><a href="javascript:;">意见反馈</a></li>
+								<li><a href="javascript:;">慕课大学</a></li>
+								<li><a href="javascript:;">友情链接</a></li>
+							</ul>
+						</div>
+						<p>Copyright © 2018 imooc.com All Rights Reserved | 京ICP备 12003892号-11 </p>
+					</div>
+					<!--左-->
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		
+	</body>
+
+</html>
